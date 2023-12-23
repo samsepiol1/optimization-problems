@@ -19,7 +19,7 @@ O problema do fluxo máximo é encontrar um fluxo em que a soma dos valores do f
 Você quer transportar o material do nó 0 (a origem) para o nó 4 (o coletor). Os números ao lado dos arcos são as capacidades deles. A capacidade de um arco é a quantidade máxima que pode ser transportada por ele em um período fixo. As capacidades são as restrições para o problema.
 
 
-````python
+```python
 """From Taha 'Introduction to Operations Research', example 6.4-2."""
 import numpy as np
 
@@ -61,8 +61,13 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 ```
+
+### Problema do Custo minímo
+
+O problema do custo minímo diz respeito a encontrar o fluxo com menor custo possível de transporte em cada arco. No problema de custo minimo existem tipos de nós especiais onde cada nó vai ter a função de demanda e fornecimento. 
+
+
 
 
  
